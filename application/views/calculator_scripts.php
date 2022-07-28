@@ -23,9 +23,7 @@
 			if(currency_1_val !== '0' && currency_2_val !== '0' && currency_1_val !== currency_2_val){
 				getRate(currency_1_val, currency_2_val)
 			}
-			console.log($('#js-currency-1').val())
-			console.log($('#js-currency-2').val())
-
+		
 		})
 
 		$('#js-currency-2').change(function(){
@@ -39,9 +37,7 @@
 			if(currency_1_val !== '0' && currency_2_val !== '0' && currency_1_val !== currency_2_val){
 				getRate(currency_1_val, currency_2_val)
 			}
-			console.log($('#js-currency-1').val())
-			console.log($('#js-currency-2').val())
-
+		
 		})
 
 		function getRate(curr1, curr2){

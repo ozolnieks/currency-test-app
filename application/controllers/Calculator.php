@@ -5,7 +5,7 @@ class Calculator extends CI_Controller {
 
 	function __construct(){
 		parent::__construct();
-		$this->apikey = '0851277c261a481199ff19d438b98fcb';
+		$this->apikey = '';
 	}
 
 	public function index()
